@@ -1,0 +1,38 @@
+
+table{
+    margin:0 auto;
+    width: 60%;
+    height: 100%;
+}
+
+tr{
+    width: 50%;
+}
+.center_vertical{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.center_horizontal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.selected{
+    background-color: lightblue;
+    border: solid 1px darkblue;
+}
+td{
+    width: 50px;
+    text-align: center;
+    height: 50px;
+}
+button{
+    border-radius: 1em;
+    width: 6em;
+    height: 2em;
+    margin: 2em;
+    background-image: linear-gradient(45deg, lightblue,blue);
+    font-size: xx-large;
+}
+.over{
+    background-color:lightgray; 
+}
